@@ -1,0 +1,58 @@
+{
+  "checked_on": "2026-11-10",
+  "idea": {
+    "version": "2026.2.3",
+    "build": "IU-262.10968.63",
+    "commit": "8062c061ff33e22041d9f1844db5b8b8a6b5e4d7",
+    "tag": "idea/262.10968.63",
+    "local_matches_public_byte_for_byte": true,
+    "ui_theme": "Islands Darcula",
+    "editor_scheme": "_@user_Darcula → Darcula → Default",
+    "user_override": "INJECTED_LANGUAGE_FRAGMENT empty; not representable by host, not copied"
+  },
+  "openidea": {
+    "version": "0.1.40",
+    "api": "1.4",
+    "commit": "37c2a6048eea89d4f6db645622612358b643862b"
+  },
+  "files": {
+    "sources/jetbrains/ManyIslandsDarcula.theme.json": {
+      "url": "https://github.com/JetBrains/intellij-community/blob/8062c061ff33e22041d9f1844db5b8b8a6b5e4d7/platform/platform-resources/src/themes/islands/ManyIslandsDarcula.theme.json",
+      "sha256": "ffb56c08de03c434cacffeaaa0ac3a634d4b744c95bb3265a0bea5bc0fb5c9fd",
+      "license": "Apache-2.0"
+    },
+    "sources/jetbrains/expUI_dark.theme.json": {
+      "url": "https://github.com/JetBrains/intellij-community/blob/8062c061ff33e22041d9f1844db5b8b8a6b5e4d7/platform/platform-resources/src/themes/expUI/expUI_dark.theme.json",
+      "sha256": "1e41f0c62c1ebf49f75cdd10182a48c100f74b443ecc53ed642458e2e58d81ee",
+      "license": "Apache-2.0"
+    },
+    "sources/jetbrains/darcula.theme.json": {
+      "url": "https://github.com/JetBrains/intellij-community/blob/8062c061ff33e22041d9f1844db5b8b8a6b5e4d7/platform/platform-resources/src/themes/darcula.theme.json",
+      "sha256": "858efbd6afdb12f26b4757c4ff7b1bccb8bdefc286797fa6344769496b6c59cb",
+      "license": "Apache-2.0"
+    },
+    "sources/jetbrains/DefaultColorSchemesManager.xml": {
+      "url": "https://github.com/JetBrains/intellij-community/blob/8062c061ff33e22041d9f1844db5b8b8a6b5e4d7/platform/platform-resources/src/DefaultColorSchemesManager.xml",
+      "sha256": "e8eef86e79a25de2ab827c6535280019c1428afe7ff4688af94a7a50e3c9ea08",
+      "license": "Apache-2.0"
+    },
+    "sources/openidea-token-groups.json": {
+      "url": "https://github.com/l0ng-ai/openidea/blob/37c2a6048eea89d4f6db645622612358b643862b/src/styles/tokens.css",
+      "sha256": "edf2e7182fce9238d945dd3d017c23b220638188889f60532e533ba432f23d36",
+      "license": "Apache-2.0",
+      "note": "Token inventory extracted by official themeTokenGroups; not a theme target."
+    },
+    "sources/gerry-islandsDarcula.theme.json": {
+      "url": "https://github.com/gerry-themes/islands-darcula/blob/f15cd3c5a948a14e71ebcf6587dee9803f641cd3/islandsDarcula.theme.json",
+      "sha256": "986e57c3442f16b171df82d2ac75c98488dab32fd3ed2e5e805d99162a3ccdb1",
+      "license": "Apache-2.0",
+      "note": "Third-party reference only; no authoritative priority over JetBrains data."
+    },
+    "sources/openidea-mapping.json": {
+      "url": "https://github.com/l0ng-ai/openidea/blob/37c2a6048eea89d4f6db645622612358b643862b/src/features/plugins/intellijTheme.ts",
+      "sha256": "122c8f0c457ec9b0ee7b16b13244be1f23681aa622dbb441be700bd991ffeeae",
+      "license": "Apache-2.0",
+      "note": "Unmodified UI_KEYS / ICLS_COLORS / ICLS_ATTRIBUTES data extracted from official converter."
+    }
+  }
+}

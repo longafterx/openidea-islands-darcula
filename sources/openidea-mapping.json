@@ -1,0 +1,757 @@
+{
+  "UI_KEYS": {
+    "--bg-app": [
+      "Panel.background"
+    ],
+    "--bg-frame": [
+      "MainWindow.background",
+      "MainToolbar.background",
+      "Panel.background"
+    ],
+    "--bg-island": [
+      "ToolWindow.background",
+      "Panel.background"
+    ],
+    "--bg-elev": [
+      "ToolWindow.background",
+      "SidePanel.background"
+    ],
+    "--bg-popup": [
+      "Popup.background",
+      "PopupMenu.background"
+    ],
+    "--bg-floating-toolbar": [
+      "Toolbar.Floating.background"
+    ],
+    "--bg-backdrop": [
+      "Popup.background"
+    ],
+    "--bg-hover": [
+      "List.hoverBackground",
+      "Tree.hoverBackground"
+    ],
+    "--bg-selected": [
+      "List.selectionBackground",
+      "Tree.selectionBackground"
+    ],
+    "--bg-selected-strong": [
+      "List.selectionBackground"
+    ],
+    "--bg-tree-selected": [
+      "Tree.selectionBackground",
+      "List.selectionBackground"
+    ],
+    "--bg-tree-selected-inactive": [
+      "Tree.selectionInactiveBackground",
+      "List.selectionInactiveBackground"
+    ],
+    "--bg-input": [
+      "TextField.background"
+    ],
+    "--bg-field": [
+      "TextField.background"
+    ],
+    "--bg-dialog": [
+      "Dialog.background",
+      "Panel.background"
+    ],
+    "--border": [
+      "Borders.color"
+    ],
+    "--border-popup": [
+      "Popup.borderColor",
+      "Popup.Border.color"
+    ],
+    "--border-strong": [
+      "Component.borderColor",
+      "Borders.ContrastBorderColor"
+    ],
+    "--border-window": [
+      "Borders.ContrastBorderColor",
+      "Component.borderColor"
+    ],
+    "--fg": [
+      "Label.foreground"
+    ],
+    "--fg-emphasis": [
+      "Label.foreground"
+    ],
+    "--fg-strong": [
+      "Label.selectedForeground",
+      "Label.foreground"
+    ],
+    "--fg-secondary": [
+      "Label.infoForeground",
+      "Component.infoForeground"
+    ],
+    "--fg-muted": [
+      "Label.infoForeground",
+      "Component.infoForeground"
+    ],
+    "--fg-subtle": [
+      "Label.disabledForeground"
+    ],
+    "--fg-faint": [
+      "Label.disabledForeground"
+    ],
+    "--accent": [
+      "Button.default.startBackground",
+      "Button.default.background",
+      "Component.focusColor"
+    ],
+    "--fg-on-accent": [
+      "Button.default.foreground"
+    ],
+    "--fg-button-primary": [
+      "Button.default.foreground"
+    ],
+    "--focus-ring-soft": [
+      "Component.focusColor"
+    ],
+    "--link": [
+      "Link.activeForeground",
+      "Hyperlink.linkColor"
+    ],
+    "--link-hover": [
+      "Link.hoverForeground",
+      "Link.activeForeground"
+    ],
+    "--danger": [
+      "Component.errorFocusColor"
+    ],
+    "--warning": [
+      "Component.warningFocusColor"
+    ],
+    "--bg-tooltip": [
+      "ToolTip.background"
+    ],
+    "--fg-tooltip": [
+      "ToolTip.foreground"
+    ],
+    "--border-tooltip": [
+      "ToolTip.borderColor"
+    ],
+    "--bg-button": [
+      "Button.startBackground",
+      "Button.background"
+    ],
+    "--border-button": [
+      "Button.startBorderColor",
+      "Button.borderColor"
+    ],
+    "--bg-checkbox": [
+      "Checkbox.Background.Default"
+    ],
+    "--border-checkbox": [
+      "Checkbox.Border.Default"
+    ],
+    "--bg-tab-selected": [
+      "EditorTabs.underlinedTabBackground",
+      "EditorTabs.selectedBackground"
+    ],
+    "--border-tab-selected": [
+      "EditorTabs.underlinedBorderColor",
+      "EditorTabs.underlineColor"
+    ],
+    "--bg-tab-hover": [
+      "EditorTabs.hoverBackground"
+    ],
+    "--border-editor-tabs": [
+      "EditorTabs.borderColor"
+    ],
+    "--bg-toolbar-hover": [
+      "ActionButton.hoverBackground"
+    ],
+    "--bg-toolbar-pressed": [
+      "ActionButton.pressedBackground"
+    ],
+    "--bg-stripe-hover": [
+      "ToolWindow.Button.hoverBackground"
+    ],
+    "--bg-stripe-selected": [
+      "ToolWindow.Button.selectedBackground"
+    ],
+    "--scrollbar-thumb": [
+      "ScrollBar.Mac.thumbColor",
+      "ScrollBar.thumbColor"
+    ],
+    "--scrollbar-thumb-hover": [
+      "ScrollBar.Mac.hoverThumbColor",
+      "ScrollBar.hoverThumbColor"
+    ],
+    "--bg-progress-track": [
+      "ProgressBar.trackColor"
+    ],
+    "--bg-counter": [
+      "Counter.background"
+    ],
+    "--fg-counter": [
+      "Counter.foreground"
+    ],
+    "--bg-search-match": [
+      "SearchMatch.startBackground",
+      "SearchMatch.endBackground"
+    ],
+    "--fg-completion-match": [
+      "CompletionPopup.matchForeground"
+    ],
+    "--bg-toggle-on": [
+      "ToggleButton.onBackground"
+    ],
+    "--fg-toggle-on": [
+      "ToggleButton.onForeground"
+    ],
+    "--bg-toggle-off": [
+      "ToggleButton.offBackground"
+    ],
+    "--fg-toggle-off": [
+      "ToggleButton.offForeground"
+    ],
+    "--border-toggle": [
+      "ToggleButton.borderColor"
+    ],
+    "--bg-toggle-knob": [
+      "ToggleButton.buttonColor"
+    ],
+    "--bg-feedback-info": [
+      "Banner.infoBackground"
+    ],
+    "--border-feedback-info": [
+      "Banner.infoBorderColor"
+    ],
+    "--bg-feedback-error": [
+      "Banner.errorBackground"
+    ],
+    "--border-feedback-error": [
+      "Banner.errorBorderColor"
+    ],
+    "--bg-feedback-warning": [
+      "Banner.warningBackground"
+    ],
+    "--border-feedback-warning": [
+      "Banner.warningBorderColor"
+    ],
+    "--bg-feedback-success": [
+      "Banner.successBackground"
+    ],
+    "--border-feedback-success": [
+      "Banner.successBorderColor"
+    ]
+  },
+  "ICLS_COLORS": {
+    "CARET_COLOR": [
+      "--caret"
+    ],
+    "CARET_ROW_COLOR": [
+      "--bg-current-line"
+    ],
+    "SELECTION_BACKGROUND": [
+      "--bg-editor-selection"
+    ],
+    "LINE_NUMBERS_COLOR": [
+      "--fg-line-number"
+    ],
+    "LINE_NUMBER_ON_CARET_ROW_COLOR": [
+      "--fg-line-number-current"
+    ],
+    "EDITOR_GUTTER_BACKGROUND": [
+      "--bg-editor-gutter"
+    ],
+    "INDENT_GUIDE": [
+      "--border-indent-guide"
+    ],
+    "SELECTED_INDENT_GUIDE": [
+      "--border-indent-guide-active"
+    ],
+    "RIGHT_MARGIN_COLOR": [
+      "--border-right-margin"
+    ],
+    "WHITESPACES": [
+      "--fg-whitespace"
+    ],
+    "METHOD_SEPARATORS_COLOR": [
+      "--border-method-separator"
+    ],
+    "FILESTATUS_MODIFIED": [
+      "--vcs-modified"
+    ],
+    "FILESTATUS_ADDED": [
+      "--vcs-added"
+    ],
+    "FILESTATUS_DELETED": [
+      "--vcs-deleted"
+    ],
+    "FILESTATUS_UNKNOWN": [
+      "--vcs-untracked"
+    ],
+    "FILESTATUS_IDEA_FILESTATUS_IGNORED": [
+      "--vcs-ignored"
+    ],
+    "FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS": [
+      "--vcs-conflict"
+    ],
+    "MODIFIED_LINES_COLOR": [
+      "--gutter-modified"
+    ],
+    "ADDED_LINES_COLOR": [
+      "--gutter-added"
+    ],
+    "DELETED_LINES_COLOR": [
+      "--gutter-deleted"
+    ]
+  },
+  "ICLS_ATTRIBUTES": {
+    "TEXT": [
+      [
+        "FOREGROUND",
+        "--fg-editor"
+      ],
+      [
+        "BACKGROUND",
+        "--bg-editor"
+      ]
+    ],
+    "DIFF_MODIFIED": [
+      [
+        "BACKGROUND",
+        "--diff-modified"
+      ],
+      [
+        "ERROR_STRIPE_COLOR",
+        "--diff-modified-stripe"
+      ]
+    ],
+    "DIFF_INSERTED": [
+      [
+        "BACKGROUND",
+        "--diff-inserted"
+      ],
+      [
+        "ERROR_STRIPE_COLOR",
+        "--diff-inserted-stripe"
+      ]
+    ],
+    "DIFF_DELETED": [
+      [
+        "BACKGROUND",
+        "--diff-deleted"
+      ],
+      [
+        "ERROR_STRIPE_COLOR",
+        "--diff-deleted-stripe"
+      ]
+    ],
+    "DIFF_CONFLICT": [
+      [
+        "ERROR_STRIPE_COLOR",
+        "--diff-conflict-stripe"
+      ]
+    ],
+    "DEFAULT_KEYWORD": [
+      [
+        "FOREGROUND",
+        "--syn-keyword"
+      ]
+    ],
+    "DEFAULT_STRING": [
+      [
+        "FOREGROUND",
+        "--syn-string"
+      ]
+    ],
+    "DEFAULT_NUMBER": [
+      [
+        "FOREGROUND",
+        "--syn-number"
+      ]
+    ],
+    "DEFAULT_LINE_COMMENT": [
+      [
+        "FOREGROUND",
+        "--syn-comment"
+      ]
+    ],
+    "DEFAULT_DOC_COMMENT": [
+      [
+        "FOREGROUND",
+        "--syn-doc-comment"
+      ]
+    ],
+    "DEFAULT_DOC_COMMENT_TAG": [
+      [
+        "FOREGROUND",
+        "--syn-doc-comment-tag"
+      ]
+    ],
+    "DEFAULT_DOC_COMMENT_TAG_VALUE": [
+      [
+        "FOREGROUND",
+        "--syn-doc-comment-tag-value"
+      ]
+    ],
+    "DEFAULT_DOC_MARKUP": [
+      [
+        "FOREGROUND",
+        "--syn-doc-markup"
+      ],
+      [
+        "BACKGROUND",
+        "--syn-doc-markup-bg"
+      ]
+    ],
+    "DEFAULT_FUNCTION_DECLARATION": [
+      [
+        "FOREGROUND",
+        "--syn-function"
+      ]
+    ],
+    "DEFAULT_FUNCTION_CALL": [
+      [
+        "FOREGROUND",
+        "--syn-function-call"
+      ]
+    ],
+    "DEFAULT_CLASS_NAME": [
+      [
+        "FOREGROUND",
+        "--syn-type"
+      ]
+    ],
+    "DEFAULT_CONSTANT": [
+      [
+        "FOREGROUND",
+        "--syn-constant"
+      ]
+    ],
+    "DEFAULT_INSTANCE_FIELD": [
+      [
+        "FOREGROUND",
+        "--syn-property"
+      ]
+    ],
+    "DEFAULT_IDENTIFIER": [
+      [
+        "FOREGROUND",
+        "--syn-variable"
+      ]
+    ],
+    "DEFAULT_LOCAL_VARIABLE": [
+      [
+        "FOREGROUND",
+        "--syn-variable"
+      ]
+    ],
+    "DEFAULT_PARAMETER": [
+      [
+        "FOREGROUND",
+        "--syn-param"
+      ]
+    ],
+    "DEFAULT_GLOBAL_VARIABLE": [
+      [
+        "FOREGROUND",
+        "--syn-global"
+      ]
+    ],
+    "DEFAULT_PREDEFINED_SYMBOL": [
+      [
+        "FOREGROUND",
+        "--syn-builtin"
+      ]
+    ],
+    "DEFAULT_METADATA": [
+      [
+        "FOREGROUND",
+        "--syn-annotation"
+      ],
+      [
+        "FOREGROUND",
+        "--syn-decorator"
+      ]
+    ],
+    "DEFAULT_OPERATION_SIGN": [
+      [
+        "FOREGROUND",
+        "--syn-punct"
+      ]
+    ],
+    "DEFAULT_VALID_STRING_ESCAPE": [
+      [
+        "FOREGROUND",
+        "--syn-escape"
+      ]
+    ],
+    "DEFAULT_TAG": [
+      [
+        "FOREGROUND",
+        "--syn-tag"
+      ]
+    ],
+    "DEFAULT_ATTRIBUTE": [
+      [
+        "FOREGROUND",
+        "--syn-attribute"
+      ]
+    ],
+    "TODO_DEFAULT_ATTRIBUTES": [
+      [
+        "FOREGROUND",
+        "--syn-todo"
+      ]
+    ],
+    "BAD_CHARACTER": [
+      [
+        "FOREGROUND",
+        "--syn-invalid"
+      ]
+    ],
+    "RAINBOW_COLOR1": [
+      [
+        "FOREGROUND",
+        "--syn-rainbow-1"
+      ]
+    ],
+    "RAINBOW_COLOR2": [
+      [
+        "FOREGROUND",
+        "--syn-rainbow-2"
+      ]
+    ],
+    "RAINBOW_COLOR3": [
+      [
+        "FOREGROUND",
+        "--syn-rainbow-3"
+      ]
+    ],
+    "RAINBOW_COLOR4": [
+      [
+        "FOREGROUND",
+        "--syn-rainbow-4"
+      ]
+    ],
+    "RAINBOW_COLOR5": [
+      [
+        "FOREGROUND",
+        "--syn-rainbow-5"
+      ]
+    ],
+    "ERRORS_ATTRIBUTES": [
+      [
+        "EFFECT_COLOR",
+        "--wave-error"
+      ]
+    ],
+    "WARNING_ATTRIBUTES": [
+      [
+        "EFFECT_COLOR",
+        "--wave-warning"
+      ]
+    ],
+    "NOT_USED_ELEMENT_ATTRIBUTES": [
+      [
+        "FOREGROUND",
+        "--fg-unused"
+      ]
+    ],
+    "MATCHED_BRACE_ATTRIBUTES": [
+      [
+        "BACKGROUND",
+        "--bg-matched-brace"
+      ]
+    ],
+    "SEARCH_RESULT_ATTRIBUTES": [
+      [
+        "BACKGROUND",
+        "--bg-search-match"
+      ]
+    ],
+    "TEXT_SEARCH_RESULT_ATTRIBUTES": [
+      [
+        "BACKGROUND",
+        "--bg-text-search-result"
+      ]
+    ],
+    "IDENTIFIER_UNDER_CARET_ATTRIBUTES": [
+      [
+        "BACKGROUND",
+        "--bg-identifier-under-caret"
+      ]
+    ],
+    "WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES": [
+      [
+        "BACKGROUND",
+        "--bg-identifier-under-caret-write"
+      ]
+    ],
+    "FOLDED_TEXT_ATTRIBUTES": [
+      [
+        "FOREGROUND",
+        "--fg-fold-placeholder"
+      ],
+      [
+        "BACKGROUND",
+        "--bg-fold-placeholder"
+      ]
+    ],
+    "INLINE_PARAMETER_HINT": [
+      [
+        "FOREGROUND",
+        "--fg-inlay"
+      ],
+      [
+        "BACKGROUND",
+        "--bg-inlay"
+      ]
+    ],
+    "BREAKPOINT_ATTRIBUTES": [
+      [
+        "BACKGROUND",
+        "--bg-breakpoint-line"
+      ]
+    ],
+    "DEBUGGER_INLINED_VALUES": [
+      [
+        "FOREGROUND",
+        "--syn-inline-value"
+      ]
+    ],
+    "PY.SELF_PARAMETER": [
+      [
+        "FOREGROUND",
+        "--syn-self"
+      ]
+    ],
+    "PY.KEYWORD_ARGUMENT": [
+      [
+        "FOREGROUND",
+        "--syn-keyword-arg"
+      ]
+    ],
+    "PY.DOC_COMMENT": [
+      [
+        "FOREGROUND",
+        "--syn-docstring"
+      ]
+    ],
+    "PY.BUILTIN_NAME": [
+      [
+        "FOREGROUND",
+        "--syn-predefined"
+      ]
+    ],
+    "MARKDOWN_HEADER_LEVEL_1": [
+      [
+        "FOREGROUND",
+        "--syn-markup-heading"
+      ]
+    ],
+    "MARKDOWN_CODE_SPAN": [
+      [
+        "FOREGROUND",
+        "--syn-markup-code"
+      ]
+    ],
+    "MARKDOWN_LINK_TEXT": [
+      [
+        "FOREGROUND",
+        "--syn-link"
+      ]
+    ],
+    "CONSOLE_BLACK_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-black"
+      ]
+    ],
+    "CONSOLE_RED_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-red"
+      ]
+    ],
+    "CONSOLE_GREEN_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-green"
+      ]
+    ],
+    "CONSOLE_YELLOW_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-yellow"
+      ]
+    ],
+    "CONSOLE_BLUE_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-blue"
+      ]
+    ],
+    "CONSOLE_MAGENTA_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-magenta"
+      ]
+    ],
+    "CONSOLE_CYAN_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-cyan"
+      ]
+    ],
+    "CONSOLE_GRAY_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-white"
+      ]
+    ],
+    "CONSOLE_DARKGRAY_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-black"
+      ]
+    ],
+    "CONSOLE_RED_BRIGHT_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-red"
+      ]
+    ],
+    "CONSOLE_GREEN_BRIGHT_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-green"
+      ]
+    ],
+    "CONSOLE_YELLOW_BRIGHT_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-yellow"
+      ]
+    ],
+    "CONSOLE_BLUE_BRIGHT_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-blue"
+      ]
+    ],
+    "CONSOLE_MAGENTA_BRIGHT_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-magenta"
+      ]
+    ],
+    "CONSOLE_CYAN_BRIGHT_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-cyan"
+      ]
+    ],
+    "CONSOLE_WHITE_OUTPUT": [
+      [
+        "FOREGROUND",
+        "--ansi-bright-white"
+      ]
+    ]
+  }
+}

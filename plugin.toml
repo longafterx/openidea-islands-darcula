@@ -1,0 +1,13 @@
+# Data-only Theme Plugin API; no executable module or permissions.
+id = "longafter.islands-darcula"
+name = "Islands Darcula"
+version = "0.1.0"
+description = "Islands Darcula for OpenIDEA; ported from JetBrains color resources, with Gerry's theme as a reference."
+authors = ["longafter", "JetBrains (original colors)", "Gerry (reference theme)"]
+license = "Apache-2.0"
+engines.openidea = "^1.0"
+categories = ["themes"]
+
+[[contributes.themes]]
+path = "themes/islands-darcula.theme.json"
+editor-scheme = "themes/islands-darcula.scheme.json"

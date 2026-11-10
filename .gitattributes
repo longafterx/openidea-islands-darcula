@@ -1,0 +1,5 @@
+# Preserve the original bytes used by the pinned source hashes.
+sources/** -text
+# Upstream resources are retained verbatim, including their whitespace.
+sources/jetbrains/** -whitespace
+sources/gerry-islandsDarcula.theme.json -whitespace

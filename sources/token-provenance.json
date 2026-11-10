@@ -1,0 +1,2042 @@
+{
+  "--bg-app": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-elev": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ToolWindow.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-popup": {
+    "value": "#333333",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Popup.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-floating-toolbar": {
+    "value": "#393b40",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Toolbar.Floating.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-hover": {
+    "value": "#393b40",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.hoverBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-selected": {
+    "value": "#304c80",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.selectionBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-selected-strong": {
+    "value": "#304c80",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.lightSelectionBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-current-line": {
+    "value": "#323232",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/CARET_ROW_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-debug-line": {
+    "value": "#2d6099",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/EXECUTIONPOINT_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-backdrop": {
+    "value": "#333333",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Popup.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-input": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.TextField.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border": {
+    "value": "#404040",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Borders.color",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-popup": {
+    "value": "#474747",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Popup.borderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-strong": {
+    "value": "#5c5c5c",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Component.borderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-window": {
+    "value": "#404040",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Borders.ContrastBorderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--control-off": {
+    "value": "#5c5c5c",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Component.borderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-strong": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/darcula.theme.json",
+    "key": "ui.Label.selectedForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-emphasis": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/darcula.theme.json",
+    "key": "ui.Label.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/darcula.theme.json",
+    "key": "ui.Label.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-secondary": {
+    "value": "#828282",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Label.infoForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-muted": {
+    "value": "#828282",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Label.infoForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-subtle": {
+    "value": "#777777",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.disabledText",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-faint": {
+    "value": "#777777",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.disabledText",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-gutter": {
+    "value": "#606366",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/LINE_NUMBERS_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-icon": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--accent": {
+    "value": "#365880",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.default.startBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--link": {
+    "value": "#589df6",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Link.activeForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--link-hover": {
+    "value": "#589df6",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Link.hoverForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--chart-series": {
+    "value": "#e07a7c",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--chart-series",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--danger": {
+    "value": "#db5c5c",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Label.errorForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--warning": {
+    "value": "#ba9752",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Label.warningForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--success": {
+    "value": "#57965c",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.VersionControl.Merge.Status.NoConflicts.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--db-connected": {
+    "value": "#2fe02f",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--db-connected",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--db-connected-ring": {
+    "value": "#1d6b1d",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--db-connected-ring",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--info": {
+    "value": "#548af7",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "colors.Blue8",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--vcs-modified": {
+    "value": "#6897bb",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/FILESTATUS_MODIFIED",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--vcs-added": {
+    "value": "#629755",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/FILESTATUS_ADDED",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--vcs-deleted": {
+    "value": "#6c6c6c",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/FILESTATUS_DELETED",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--vcs-untracked": {
+    "value": "#d1675a",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/FILESTATUS_UNKNOWN",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--vcs-ignored": {
+    "value": "#848504",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/FILESTATUS_IDEA_FILESTATUS_IGNORED",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--vcs-conflict": {
+    "value": "#d5756c",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--gutter-modified": {
+    "value": "#374752",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/MODIFIED_LINES_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--gutter-added": {
+    "value": "#384c38",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/ADDED_LINES_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--gutter-deleted": {
+    "value": "#656e76",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/DELETED_LINES_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--diff-modified": {
+    "value": "#385570",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DIFF_MODIFIED/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--diff-inserted": {
+    "value": "#294436",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DIFF_INSERTED/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--diff-deleted": {
+    "value": "#484a4a",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DIFF_DELETED/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--diff-modified-stripe": {
+    "value": "#43698d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DIFF_MODIFIED/ERROR_STRIPE_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--diff-inserted-stripe": {
+    "value": "#447152",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DIFF_INSERTED/ERROR_STRIPE_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--diff-deleted-stripe": {
+    "value": "#656e76",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DIFF_DELETED/ERROR_STRIPE_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--diff-conflict-stripe": {
+    "value": "#8f5247",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DIFF_CONFLICT/ERROR_STRIPE_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--syn-keyword": {
+    "value": "#cc7832",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_KEYWORD/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-string": {
+    "value": "#6a8759",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_STRING/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-type": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-function": {
+    "value": "#ffc66d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_FUNCTION_DECLARATION/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-function-call": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-comment": {
+    "value": "#808080",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_LINE_COMMENT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-comment-style": {
+    "value": "normal",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_LINE_COMMENT",
+    "status": "mapped",
+    "note": "No italic FONT_TYPE; use normal.",
+    "file": "scheme"
+  },
+  "--syn-doc-comment": {
+    "value": "#629755",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_DOC_COMMENT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-doc-comment-tag": {
+    "value": "#629755",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_DOC_COMMENT_TAG/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-doc-comment-tag-effect": {
+    "value": "underline",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_DOC_COMMENT_TAG/EFFECT_TYPE=1",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-doc-comment-tag-value": {
+    "value": "#8a653b",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_DOC_COMMENT_TAG_VALUE/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-doc-markup": {
+    "value": "#77b767",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_DOC_MARKUP/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-doc-markup-bg": {
+    "value": "transparent",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_DOC_MARKUP/BACKGROUND(empty)",
+    "status": "mapped",
+    "note": "Explicitly cleared in source.",
+    "file": "scheme"
+  },
+  "--syn-docstring": {
+    "value": "#629755",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_DOC_COMMENT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-annotation": {
+    "value": "#bbb529",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_METADATA/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-decorator": {
+    "value": "#bbb529",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_METADATA/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-number": {
+    "value": "#6897bb",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_NUMBER/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-punct": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-variable": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-global": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-namespace": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-param": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-property": {
+    "value": "#9876aa",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_INSTANCE_FIELD/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-constant": {
+    "value": "#9876aa",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_CONSTANT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-python-local-variable": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-global-variable": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-instance-attribute": {
+    "value": "#9876aa",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_INSTANCE_FIELD/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-class-attribute": {
+    "value": "#9876aa",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_STATIC_FIELD/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-constant": {
+    "value": "#9876aa",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_CONSTANT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-property": {
+    "value": "#9876aa",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_INSTANCE_FIELD/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-type-parameter": {
+    "value": "#507874",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TYPE_PARAMETER_NAME_ATTRIBUTES/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-builtin": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-predefined-definition": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-predefined-usage": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-fstring": {
+    "value": "#6a8759",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_STRING/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-python-bytes": {
+    "value": "#6a8759",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_STRING/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-php-variable": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-php-function-call": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-builtin": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-self": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-keyword-arg": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-predefined": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-escape": {
+    "value": "#cc7832",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_VALID_STRING_ESCAPE/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-regexp": {
+    "value": "#6a8759",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_STRING/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-tag": {
+    "value": "#e8bf6a",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/XML_TAG_NAME/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-attribute": {
+    "value": "#bababa",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/XML_ATTRIBUTE_NAME/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-todo": {
+    "value": "#a8c023",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TODO_DEFAULT_ATTRIBUTES/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-link": {
+    "value": "#589df6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CTRL_CLICKABLE/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-markup-heading": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-markup-code": {
+    "value": "#6a8759",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEFAULT_STRING/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-invalid": {
+    "value": "#ff0000",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/BAD_CHARACTER/EFFECT_COLOR",
+    "status": "approximation",
+    "note": "Host invalid text foreground uses IDEA's box/effect color.",
+    "file": "scheme"
+  },
+  "--syn-inline-value": {
+    "value": "#666d75",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/DEBUGGER_INLINED_VALUES/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--syn-rainbow-1": {
+    "value": "#529d52",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/RAINBOW_COLOR0/FOREGROUND",
+    "status": "mapped",
+    "note": "Corrected zero-based source index; not bracket colors.",
+    "file": "scheme"
+  },
+  "--syn-rainbow-2": {
+    "value": "#be7070",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/RAINBOW_COLOR1/FOREGROUND",
+    "status": "mapped",
+    "note": "Corrected zero-based source index; not bracket colors.",
+    "file": "scheme"
+  },
+  "--syn-rainbow-3": {
+    "value": "#3d7676",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/RAINBOW_COLOR2/FOREGROUND",
+    "status": "mapped",
+    "note": "Corrected zero-based source index; not bracket colors.",
+    "file": "scheme"
+  },
+  "--syn-rainbow-4": {
+    "value": "#be9970",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/RAINBOW_COLOR3/FOREGROUND",
+    "status": "mapped",
+    "note": "Corrected zero-based source index; not bracket colors.",
+    "file": "scheme"
+  },
+  "--syn-rainbow-5": {
+    "value": "#9d527c",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/RAINBOW_COLOR4/FOREGROUND",
+    "status": "mapped",
+    "note": "Corrected zero-based source index; not bracket colors.",
+    "file": "scheme"
+  },
+  "--syn-bracket-1": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-bracket-2": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--syn-bracket-3": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "approximation",
+    "note": "Shared host syntax category; language fallback/semantic scopes need visual calibration.",
+    "file": "scheme"
+  },
+  "--fg-editor": {
+    "value": "#a9b7c6",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--caret": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/CARET_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-line-number": {
+    "value": "#606366",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/LINE_NUMBERS_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-line-number-current": {
+    "value": "#a4a3a3",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/LINE_NUMBER_ON_CARET_ROW_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--border-gutter": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/BACKGROUND",
+    "status": "approximation",
+    "note": "No separate gutter border in source; merge into editor surface.",
+    "file": "scheme"
+  },
+  "--border-indent-guide": {
+    "value": "#373737",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/INDENT_GUIDE",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--border-indent-guide-active": {
+    "value": "#505050",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/SELECTED_INDENT_GUIDE",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--border-right-margin": {
+    "value": "#4d4d4d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/RIGHT_MARGIN_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-editor-selection": {
+    "value": "#214283",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/SELECTION_BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-editor-selection-inactive": {
+    "value": "#4c4f56",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/SELECTION_BACKGROUND_INACTIVE",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-text-search-result": {
+    "value": "#32593d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT_SEARCH_RESULT_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-text-search-result-current": {
+    "value": "#32593d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT_SEARCH_RESULT_ATTRIBUTES/BACKGROUND",
+    "status": "approximation",
+    "note": "No separate active occurrence background available.",
+    "file": "scheme"
+  },
+  "--bg-matched-brace": {
+    "value": "#3b514d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/MATCHED_BRACE_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--matched-brace-weight": {
+    "value": "700",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/MATCHED_BRACE_ATTRIBUTES/FONT_TYPE=1",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-matched-tag": {
+    "value": "#3b514d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/MATCHED_BRACE_ATTRIBUTES/BACKGROUND",
+    "status": "approximation",
+    "note": "Host shares brace and tag match surfaces.",
+    "file": "scheme"
+  },
+  "--bg-fold-placeholder": {
+    "value": "#3a3a3a",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/FOLDED_TEXT_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-fold-placeholder": {
+    "value": "#8c8c8c",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/FOLDED_TEXT_ATTRIBUTES/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-fold-marker": {
+    "value": "#555555",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/TEARLINE_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-whitespace": {
+    "value": "#606060",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/WHITESPACES",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-unused": {
+    "value": "#72737a",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/NOT_USED_ELEMENT_ATTRIBUTES/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-identifier-under-caret": {
+    "value": "#344134",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/IDENTIFIER_UNDER_CARET_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-identifier-under-caret-write": {
+    "value": "#40332b",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-inlay": {
+    "value": "#787878",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/INLINE_PARAMETER_HINT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-inlay": {
+    "value": "#3b3b3b",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/INLINE_PARAMETER_HINT/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--wave-error": {
+    "value": "#bc3f3c",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/ERRORS_ATTRIBUTES/EFFECT_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--wave-warning": {
+    "value": "#be9117",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/WARNING_ATTRIBUTES/ERROR_STRIPE_COLOR",
+    "status": "approximation",
+    "note": "Source warning has background/stripe but no EFFECT_COLOR; use stripe for host wave.",
+    "file": "scheme"
+  },
+  "--editor-error-decoration": {
+    "value": "underline wavy var(--wave-error)",
+    "source": "derived",
+    "key": "--wave-error",
+    "status": "derived",
+    "note": "Host renders IDEA diagnostic effects as CSS decorations.",
+    "file": "scheme"
+  },
+  "--editor-warning-decoration": {
+    "value": "underline wavy var(--wave-warning)",
+    "source": "derived",
+    "key": "--wave-warning",
+    "status": "derived",
+    "note": "Host renders IDEA diagnostic effects as CSS decorations.",
+    "file": "scheme"
+  },
+  "--editor-warning-background": {
+    "value": "#52503a",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/WARNING_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-breakpoint-line": {
+    "value": "#3a2323",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/BREAKPOINT_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-completion-match": {
+    "value": "#548af7",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.CompletionPopup.matchForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-editor-inline": {
+    "value": "var(--bg-editor)",
+    "source": "derived",
+    "key": "--bg-editor",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "scheme"
+  },
+  "--bg-editor-banner": {
+    "value": "#1d3857",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/NOTIFICATION_BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--fg-weak-warning": {
+    "value": "#72737a",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/NOT_USED_ELEMENT_ATTRIBUTES/FOREGROUND",
+    "status": "approximation",
+    "note": "No equivalent weak-warning foreground mapped.",
+    "file": "scheme"
+  },
+  "--fg-bulb": {
+    "value": "#ba9752",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Label.warningForeground",
+    "status": "approximation",
+    "note": "Host bulb uses warning UI foreground.",
+    "file": "scheme"
+  },
+  "--ansi-black": {
+    "value": "#000000",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_BLACK_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-red": {
+    "value": "#f0524f",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_RED_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-green": {
+    "value": "#5c962c",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_GREEN_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-yellow": {
+    "value": "#a68a0d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_YELLOW_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-blue": {
+    "value": "#3993d4",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_BLUE_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-magenta": {
+    "value": "#a771bf",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_MAGENTA_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-cyan": {
+    "value": "#00a3a3",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_CYAN_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-white": {
+    "value": "#808080",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_GRAY_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-black": {
+    "value": "#595959",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_DARKGRAY_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-red": {
+    "value": "#ff4050",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_RED_BRIGHT_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-green": {
+    "value": "#4fc414",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_GREEN_BRIGHT_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-yellow": {
+    "value": "#e5bf00",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_YELLOW_BRIGHT_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-blue": {
+    "value": "#1fb0ff",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_BLUE_BRIGHT_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-magenta": {
+    "value": "#ed7eed",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_MAGENTA_BRIGHT_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-cyan": {
+    "value": "#00e5e5",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_CYAN_BRIGHT_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--ansi-bright-white": {
+    "value": "#ffffff",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/CONSOLE_WHITE_OUTPUT/FOREGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--terminal-ansi-black": {
+    "value": "var(--ansi-black)",
+    "source": "derived",
+    "key": "--ansi-black",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-red": {
+    "value": "var(--ansi-red)",
+    "source": "derived",
+    "key": "--ansi-red",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-green": {
+    "value": "var(--ansi-green)",
+    "source": "derived",
+    "key": "--ansi-green",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-yellow": {
+    "value": "var(--ansi-yellow)",
+    "source": "derived",
+    "key": "--ansi-yellow",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-blue": {
+    "value": "var(--ansi-blue)",
+    "source": "derived",
+    "key": "--ansi-blue",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-magenta": {
+    "value": "var(--ansi-magenta)",
+    "source": "derived",
+    "key": "--ansi-magenta",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-cyan": {
+    "value": "var(--ansi-cyan)",
+    "source": "derived",
+    "key": "--ansi-cyan",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-white": {
+    "value": "var(--ansi-white)",
+    "source": "derived",
+    "key": "--ansi-white",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-black": {
+    "value": "var(--ansi-bright-black)",
+    "source": "derived",
+    "key": "--ansi-bright-black",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-red": {
+    "value": "var(--ansi-bright-red)",
+    "source": "derived",
+    "key": "--ansi-bright-red",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-green": {
+    "value": "var(--ansi-bright-green)",
+    "source": "derived",
+    "key": "--ansi-bright-green",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-yellow": {
+    "value": "var(--ansi-bright-yellow)",
+    "source": "derived",
+    "key": "--ansi-bright-yellow",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-blue": {
+    "value": "var(--ansi-bright-blue)",
+    "source": "derived",
+    "key": "--ansi-bright-blue",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-magenta": {
+    "value": "var(--ansi-bright-magenta)",
+    "source": "derived",
+    "key": "--ansi-bright-magenta",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-cyan": {
+    "value": "var(--ansi-bright-cyan)",
+    "source": "derived",
+    "key": "--ansi-bright-cyan",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--terminal-ansi-bright-white": {
+    "value": "var(--ansi-bright-white)",
+    "source": "derived",
+    "key": "--ansi-bright-white",
+    "status": "derived",
+    "note": "Classic Darcula console palette; new block-terminal palette is intentionally separate upstream.",
+    "file": "scheme"
+  },
+  "--shadow-popup": {
+    "value": "0 6px 20px rgba(0, 0, 0, 0.45)",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--shadow-popup",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--shadow-dialog": {
+    "value": "0 0 0 0.5px rgba(0, 0, 0, 0.6), 0 10px 24px rgba(0, 0, 0, 0.35), 0 24px 72px rgba(0, 0, 0, 0.45)",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--shadow-dialog",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--traffic-close": {
+    "value": "#ff5f57",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--traffic-close",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--traffic-close-border": {
+    "value": "#e0443e",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--traffic-close-border",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--traffic-close-pressed": {
+    "value": "#bf4942",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--traffic-close-pressed",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--traffic-glyph": {
+    "value": "#4d0000",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--traffic-glyph",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--traffic-off": {
+    "value": "#4b4c4f",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--traffic-off",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--traffic-off-border": {
+    "value": "#404144",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--traffic-off-border",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--bg-stripe-tooltip": {
+    "value": "var(--bg-tooltip)",
+    "source": "derived",
+    "key": "--bg-tooltip",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--fg-stripe-tooltip": {
+    "value": "var(--fg-tooltip)",
+    "source": "derived",
+    "key": "--fg-tooltip",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--border-stripe-tooltip": {
+    "value": "var(--border-tooltip)",
+    "source": "derived",
+    "key": "--border-tooltip",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--shadow-stripe-tooltip": {
+    "value": "var(--shadow-tooltip)",
+    "source": "derived",
+    "key": "--shadow-tooltip",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--bg-tooltip": {
+    "value": "#4b4d4d",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ToolTip.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-tooltip": {
+    "value": "#bfbfbf",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ToolTip.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-tooltip": {
+    "value": "#616161",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ToolTip.borderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-control": {
+    "value": "#4c5052",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.startBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-control-hover": {
+    "value": "#ffffff26",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.ActionButton.pressedBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-active": {
+    "value": "#ffffff26",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.ActionButton.pressedBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-scrim": {
+    "value": "rgba(0, 0, 0, 0.45)",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--bg-scrim",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--fg-on-accent": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.default.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--shadow-tooltip": {
+    "value": "0 4px 12px rgba(0, 0, 0, 0.4)",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--shadow-tooltip",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--shadow-balloon": {
+    "value": "0 8px 24px rgba(0, 0, 0, 0.45)",
+    "status": "host-fallback",
+    "source": "sources/openidea-token-groups.json",
+    "key": "--shadow-balloon",
+    "file": "theme",
+    "note": "Inherits Islands Dark; no verified equivalent mapped."
+  },
+  "--bg-frame": {
+    "value": "#3c3f41",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.MainWindow.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-island": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ToolWindow.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-stripe-hover": {
+    "value": "#ffffff12",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.MainToolbar.Dropdown.transparentHoverBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-stripe-selected": {
+    "value": "#3574f0",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.ToolWindow.Button.selectedBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-stripe-selected-active": {
+    "value": "#ffffff",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.ToolWindow.Button.selectedForeground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-stripe-label": {
+    "value": "#9da0a8",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ToolWindow.Button.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-tab-selected": {
+    "value": "#2b405a",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.EditorTabs.underlinedTabBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-tab-selected": {
+    "value": "#385475",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.EditorTabs.underlinedBorderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-tab-selected-inactive": {
+    "value": "#35393b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.EditorTabs.inactiveUnderlinedTabBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-tab-selected-inactive": {
+    "value": "#454a4d",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.EditorTabs.inactiveUnderlinedTabBorderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-tab-hover": {
+    "value": "#35393b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.EditorTabs.hoverBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-editor-tabs": {
+    "value": "#3c3f41",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.EditorTabs.underTabsBorderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-tree-selected": {
+    "value": "#304c80",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.selectionBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-tree-selected-inactive": {
+    "value": "#474a4d",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.selectionInactiveBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-tree-hover": {
+    "value": "#393b40",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.*.hoverBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-toolbar-hover": {
+    "value": "#ffffff12",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ActionButton.hoverBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-toolbar-pressed": {
+    "value": "#ffffff26",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.ActionButton.pressedBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-toolbar-selected": {
+    "value": "#304c80",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.SelectionActive",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--bg-toolbar-selected-hover": {
+    "value": "#304c80",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.SelectionActiveLight",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--bg-button-primary-hover": {
+    "value": "#366799",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.ComponentBorderFocus",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--fg-button-primary": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.default.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-button": {
+    "value": "#4c5052",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.startBackground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-button": {
+    "value": "#5e6060",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Button.startBorderColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-field": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.TextField.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-checkbox": {
+    "value": "#363738",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "icons.ColorPalette.Checkbox.Background.Default",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-checkbox": {
+    "value": "#6b6b6b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "icons.ColorPalette.Checkbox.Border.Default",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-toggle-on": {
+    "value": "#304c80",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.SelectionActive",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--fg-toggle-on": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.ForegroundDefault",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--bg-toggle-off": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.InputBackground",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--fg-toggle-off": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.ForegroundDefault",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--border-toggle": {
+    "value": "#5c5c5c",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.ComponentBorder",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--bg-toggle-knob": {
+    "value": "#bbbbbb",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "colors.ForegroundDefault",
+    "status": "approximation",
+    "note": "Reuses verified palette for a different host control/state.",
+    "file": "theme"
+  },
+  "--focus-ring-soft": {
+    "value": "#366799",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Component.focusColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--scrollbar-thumb": {
+    "value": "#80808059",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ScrollBar.thumbColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--scrollbar-thumb-hover": {
+    "value": "#8080808c",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.ScrollBar.hoverThumbColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-search-match": {
+    "value": "#155221",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/SEARCH_RESULT_ATTRIBUTES/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-search-match-current": {
+    "value": "var(--bg-search-match)",
+    "source": "derived",
+    "key": "--bg-search-match",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--fg-search-match": {
+    "value": "var(--fg-editor)",
+    "source": "derived",
+    "key": "--fg-editor",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--bg-dialog": {
+    "value": "var(--bg-app)",
+    "source": "derived",
+    "key": "--bg-app",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--bg-popup-inline": {
+    "value": "var(--bg-popup)",
+    "source": "derived",
+    "key": "--bg-popup",
+    "status": "derived",
+    "note": "Same host role / shared palette.",
+    "file": "theme"
+  },
+  "--bg-popup-advertiser": {
+    "value": "#333333",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Popup.Advertiser.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-feedback-info": {
+    "value": "#25324d",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "colors.Blue1",
+    "status": "approximation",
+    "note": "No one-to-one banner key; verified blue status palette.",
+    "file": "theme"
+  },
+  "--border-feedback-info": {
+    "value": "#35538f",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "colors.Blue3",
+    "status": "approximation",
+    "note": "No one-to-one banner key; verified blue status palette.",
+    "file": "theme"
+  },
+  "--bg-feedback-error": {
+    "value": "#402929",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Editor.ToolTip.errorBackground",
+    "status": "approximation",
+    "note": "Editor tooltip status palette projected onto host banners.",
+    "file": "theme"
+  },
+  "--border-feedback-error": {
+    "value": "#472b2b",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Editor.ToolTip.errorBorder",
+    "status": "approximation",
+    "note": "Editor tooltip status palette projected onto host banners.",
+    "file": "theme"
+  },
+  "--bg-feedback-warning": {
+    "value": "#3d3223",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Editor.ToolTip.warningBackground",
+    "status": "approximation",
+    "note": "Editor tooltip status palette projected onto host banners.",
+    "file": "theme"
+  },
+  "--border-feedback-warning": {
+    "value": "#5e4d33",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Editor.ToolTip.warningBorder",
+    "status": "approximation",
+    "note": "Editor tooltip status palette projected onto host banners.",
+    "file": "theme"
+  },
+  "--bg-feedback-success": {
+    "value": "#253627",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Editor.ToolTip.successBackground",
+    "status": "approximation",
+    "note": "Editor tooltip status palette projected onto host banners.",
+    "file": "theme"
+  },
+  "--border-feedback-success": {
+    "value": "#273828",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.Editor.ToolTip.successBorder",
+    "status": "approximation",
+    "note": "Editor tooltip status palette projected onto host banners.",
+    "file": "theme"
+  },
+  "--bg-counter": {
+    "value": "#868a91",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Counter.background",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--fg-counter": {
+    "value": "#000000",
+    "source": "sources/jetbrains/ManyIslandsDarcula.theme.json",
+    "key": "ui.Counter.foreground",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--bg-progress-track": {
+    "value": "#43454a",
+    "source": "sources/jetbrains/expUI_dark.theme.json",
+    "key": "ui.ProgressBar.trackColor",
+    "status": "mapped",
+    "note": "",
+    "file": "theme"
+  },
+  "--border-method-separator": {
+    "value": "#4d4d4d",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/colors/METHOD_SEPARATORS_COLOR",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-editor": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/BACKGROUND",
+    "status": "mapped",
+    "note": "",
+    "file": "scheme"
+  },
+  "--bg-editor-gutter": {
+    "value": "#2b2b2b",
+    "source": "sources/jetbrains/DefaultColorSchemesManager.xml",
+    "key": "Darcula/attributes/TEXT/BACKGROUND",
+    "status": "approximation",
+    "note": "Converter uses editor background in new UI when EDITOR_GUTTER_BACKGROUND is absent; classic GUTTER_BACKGROUND is not used.",
+    "file": "scheme"
+  }
+}
