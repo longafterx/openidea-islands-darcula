@@ -2,6 +2,8 @@
 __pycache__/
 dist/
 *.oiplugin
+/.openidea/
+/.idea/
 
 # Local development brief, work logs and manual test evidence.
 /OpenIDEA-Islands-Darcula-Codex-Spec.md
