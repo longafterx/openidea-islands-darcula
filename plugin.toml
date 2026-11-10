@@ -2,11 +2,12 @@
 id = "longafter.islands-darcula"
 name = "Islands Darcula"
 version = "0.1.0"
-description = "Islands Darcula for OpenIDEA; ported from JetBrains color resources, with Gerry's theme as a reference."
+description = "The same IntelliJ IDEA Islands Darcula theme made for openidea."
 authors = ["longafter", "JetBrains (original colors)", "Gerry (reference theme)"]
 license = "Apache-2.0"
-engines.openidea = "^1.0"
+engines.openidea = "^1.2"
 categories = ["themes"]
+icon = "icon.svg"
 
 [[contributes.themes]]
 path = "themes/islands-darcula.theme.json"

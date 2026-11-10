@@ -37,7 +37,7 @@ def main():
     manifest = tomllib.loads((ROOT / "plugin.toml").read_text())
     require(manifest["id"] == "longafter.islands-darcula", "Unexpected plugin identity")
     require(not manifest["id"].startswith("openidea."), "Reserved plugin namespace")
-    require(manifest["engines"]["openidea"] == "^1.0", "Unexpected API range")
+    require(manifest["engines"]["openidea"] == "^1.2", "Package icons require plugin API 1.2+")
     require(not any(k in manifest for k in ["wasm", "capabilities", "activation", "openidea-api"]), "Plugin must remain data-only")
     require(set(manifest["contributes"]) == {"themes"}, "Unexpected executable contribution")
     require(len(manifest["contributes"]["themes"]) == 1, "Expected one theme")

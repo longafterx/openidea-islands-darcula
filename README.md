@@ -1,10 +1,14 @@
 # OpenIDEA Islands Darcula
 
+<img src="icon.svg" width="96" height="96" alt="Islands Darcula logo">
+
 面向 **OpenIDEA v0.1.40 / Plugin API 1.4** 的纯配置深色主题插件，版本 `0.1.0`，插件 ID 为 `longafter.islands-darcula`。
 
 目标是 IntelliJ IDEA **内置 Islands Darcula** 的低对比度界面，配套 **Darcula 编辑器方案**。已读取本机 IDEA 2026.2.3 的实际配置，并与 IntelliJ Community 同版本源码逐字节核对核心资源。UI 与编辑器方案是两个独立设置；这份插件同时提供两者。
 
 当前包含 111 个 UI Token、130 个编辑器 Token：153 项使用已核验来源的映射、61 项明确标为近似、27 项为派生表达；另有 14 项沿用宿主默认值。保留 OpenIDEA 的 Islands 布局、间距、圆角和字体设置。没有 Rust、WASM、权限声明、网络访问或运行时依赖。
+
+插件图标为原创 SVG，使用 Darcula 橙、绿、紫组成分离的 “iD” 标记。图标字段要求 Plugin API 1.2+，manifest 因此声明 `engines.openidea="^1.2"`，兼容目标 OpenIDEA 0.1.40 的 API 1.4。
 
 ## 安装与启用
 
