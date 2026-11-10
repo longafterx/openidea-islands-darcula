@@ -53,12 +53,14 @@ openidea-plugin check dist/longafter.islands-darcula-0.1.0.oiplugin
 
 ## 验证与已知限制
 
-已在 macOS aarch64 / OpenIDEA 0.1.40 上通过离线校验、官方 CLI 目录校验、打包和安装包校验；已实机验证磁盘安装、应用、内置主题切换、禁用回退和重新启用，以及 Go、JSON/XML、Markdown 预览和搜索弹窗。GUI 测试使用 MacBook 内置屏幕。
+已在 macOS aarch64 / OpenIDEA 0.1.40 上通过离线校验、官方 CLI 目录校验、打包和安装包校验；已实机验证磁盘安装、应用、内置主题切换、禁用回退和重新启用，以及 Go、JSON/XML、Markdown 预览和搜索弹窗。完整退出并重启 IDE 后，主题和配套编辑器配色自动恢复，原有项目窗口正常恢复。GUI 测试使用 MacBook 内置屏幕。
 
 OpenIDEA 的语法分类及渲染器与 IDEA 不同。类型/函数调用、Python/PHP、Markdown、彩虹括号、警告波浪线及部分控件状态存在语义近似；源码颜色相同也不表示像素级一致。原生窗口效果、图表和数据库连接提示等 14 项继续继承 Islands Dark；派生覆盖、性能图表等会跟随它们引用的颜色 Token。
 
-尚未完成整个 IDE 进程退出/重启、卸载后重装、动态编辑器选区/光标、错误与警告、Completion、终端 ANSI 和 Git Diff 的完整验收。Windows/Linux 尚未实测；与运行中的 IDEA 在同工作区、同缩放下的截图对照也尚未完成。
+尚未完成卸载后重装、动态编辑器选区/光标、错误与警告、Completion、终端 ANSI 和 Git Diff 的完整验收。Windows/Linux 尚未实测；与运行中的 IDEA 在同工作区、同缩放下的截图对照也尚未完成。
 
-快速 Disable/Enable 测试中出现过一次宿主“找不到主题”的通知；等待插件贡献加载后，通过 **Use Default Theme → Apply** 可以重新应用。其完整触发时序仍需复查。
+**OpenIDEA 0.1.40 已知限制：** 禁用当前正在使用的主题时，宿主可能出现 `Could not apply theme / has no theme "islands-darcula"` 提示；本机补测的 10 轮快速 Disable/Enable 均复现，禁用后等待也可触发。重新启用后配色能恢复，但不能将此场景视为无错误通过。
+
+**已验证的规避步骤：** 先点击 **Use Default Theme**（或在 Appearance 切回内置 Islands Dark），再禁用/启用插件；需要时重新 **Apply theme Islands Darcula**。按此步骤做的 5 轮快速切换均未出现主题错误。插件保持纯配置；该宿主生命周期问题未在本项目中修复。
 
 Apache-2.0。原色彩资源归 JetBrains；另参考 Gerry 的第三方 Islands Darcula，并使用 OpenIDEA 官方主题示例和映射定义。详见 [第三方许可与修改声明](THIRD_PARTY_LICENSES.md) 和 [NOTICE](NOTICE)。本项目不隶属于 JetBrains 或 OpenIDEA。
