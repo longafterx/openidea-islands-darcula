@@ -2,6 +2,7 @@
 __pycache__/
 dist/
 *.oiplugin
+*.key
 /.openidea/
 /.idea/
 

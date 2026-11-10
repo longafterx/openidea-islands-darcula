@@ -4,6 +4,7 @@ name = "Islands Darcula"
 version = "0.1.0"
 description = "The same IntelliJ IDEA Islands Darcula theme made for openidea."
 authors = ["longafter", "JetBrains (original colors)", "Gerry (reference theme)"]
+homepage = "https://github.com/longafterx/openidea-islands-darcula"
 license = "Apache-2.0"
 engines.openidea = "^1.2"
 categories = ["themes"]
