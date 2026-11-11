@@ -12,11 +12,11 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/longafterx/openidea-islands-darcula/releases/latest) 下载 `.oiplugin` 安装包。
-2. 在 **Settings → Plugins → ⚙ → Install Plugin from Package File…** 中选择该文件并安装。
+1. 打开 OpenIDEA 的 **Settings → Plugins → Available**。
+2. 搜索 **Islands Darcula** 并安装；若未找到，点击 **⚙ → Rescan Plugins** 刷新列表。
 3. 在 **Settings → Appearance → Theme** 选择 **Islands Darcula**，编辑器配色使用 **Theme default**。
 
-社区插件市场收录后，也可在 **Settings → Plugins → Available** 搜索 **Islands Darcula** 安装。
+也可从 [Releases](https://github.com/longafterx/openidea-islands-darcula/releases/latest) 下载 `.oiplugin`，通过 **Settings → Plugins → ⚙ → Install Plugin from Package File…** 手动安装。
 
 ## 必要说明
 
