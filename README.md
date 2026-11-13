@@ -10,6 +10,16 @@
 - 配套编辑器、弹窗、搜索、Diff、VCS 和终端 ANSI 配色。
 - 保留 OpenIDEA 的 Islands 布局、间距与圆角；纯配置，无需 Rust/WASM 或额外权限。
 
+## 效果截图
+
+macOS / OpenIDEA 0.1.43 实机截图，示例项目为 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)（[MIT](licenses/CLIProxyAPI-MIT.txt)）。
+
+**主题效果图**
+
+![Islands Darcula 的 Go 语法配色与项目树，示例为 CLIProxyAPI](docs/images/cliproxyapi-go.png)
+
+![Islands Darcula 的搜索弹窗、匹配高亮与选中状态](docs/images/cliproxyapi-search.png)
+
 ## 安装
 
 1. 打开 OpenIDEA 的 **Settings → Plugins → Available**。

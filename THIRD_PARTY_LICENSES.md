@@ -7,6 +7,7 @@
 | JetBrains / intellij-community | `idea/262.10968.63` / `8062c061ff33e22041d9f1844db5b8b8a6b5e4d7` | `sources/jetbrains/` 中的主题与编辑器颜色资源；最终颜色基准 | Apache-2.0 源码资源；保留 JetBrains NOTICE |
 | l0ng-ai / openidea | `v0.1.40` / `37c2a6048eea89d4f6db645622612358b643862b` | 官方示例结构、Token 分类和转换器映射表；JSON 数据提取自源码 | Apache-2.0 |
 | Gerry / islands-darcula | `f15cd3c5a948a14e71ebcf6587dee9803f641cd3` | `sources/gerry-islandsDarcula.theme.json` 原始第三方参考；项目 LICENSE 为其原始完整 Apache-2.0 文本 | Apache-2.0 |
+| router-for-me / CLIProxyAPI | `6db7d4b839d86c5b24e17bbe73bcd4db18ef1b1a` | README 效果截图中展示的 Go 源码与 YAML 配置；保留原始版权与许可于 [licenses/CLIProxyAPI-MIT.txt](licenses/CLIProxyAPI-MIT.txt) | MIT |
 
 JetBrains 原始归属：
 
