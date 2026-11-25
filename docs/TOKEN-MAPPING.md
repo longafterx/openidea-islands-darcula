@@ -1,8 +1,8 @@
-# Token 映射明细
+# Islands Darcula token mapping
 
-由 `python3 scripts/generate.py` 离线生成。`mapped` 表示原始数值已核验、角色已映射，不代表跨宿主实机视觉完全一致。`approximation` 是明确的语义近似；`derived` 为别名/宿主表达；`host-fallback` 不写入插件，继承 Islands Dark。
+Generated offline by `python3 scripts/generate.py`. `mapped` preserves a verified source value and maps its role; it does not guarantee identical rendering across hosts. `approximation` projects a source value onto a different host role; `derived` is a host expression or alias; `host-fallback` is omitted from the plugin and inherits Islands Dark.
 
-| Token | 值 | 状态 | 文件 / 键 | 说明 |
+| Token | Value | Status | File / key | Notes |
 | --- | --- | --- | --- | --- |
 | `--bg-app` | `#2b2b2b` | mapped | `sources/jetbrains/ManyIslandsDarcula.theme.json` · `ui.*.background` |  |
 | `--bg-elev` | `#2b2b2b` | mapped | `sources/jetbrains/ManyIslandsDarcula.theme.json` · `ui.ToolWindow.background` |  |

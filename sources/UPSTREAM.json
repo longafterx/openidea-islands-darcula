@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-11-10",
+  "checked_on": "2026-11-25",
   "idea": {
     "version": "2026.2.3",
     "build": "IU-262.10968.63",
@@ -42,17 +42,50 @@
       "license": "Apache-2.0",
       "note": "Token inventory extracted by official themeTokenGroups; not a theme target."
     },
-    "sources/gerry-islandsDarcula.theme.json": {
-      "url": "https://github.com/gerry-themes/islands-darcula/blob/f15cd3c5a948a14e71ebcf6587dee9803f641cd3/islandsDarcula.theme.json",
-      "sha256": "986e57c3442f16b171df82d2ac75c98488dab32fd3ed2e5e805d99162a3ccdb1",
-      "license": "Apache-2.0",
-      "note": "Third-party reference only; no authoritative priority over JetBrains data."
-    },
     "sources/openidea-mapping.json": {
       "url": "https://github.com/l0ng-ai/openidea/blob/37c2a6048eea89d4f6db645622612358b643862b/src/features/plugins/intellijTheme.ts",
       "sha256": "122c8f0c457ec9b0ee7b16b13244be1f23681aa622dbb441be700bd991ffeeae",
       "license": "Apache-2.0",
       "note": "Unmodified UI_KEYS / ICLS_COLORS / ICLS_ATTRIBUTES data extracted from official converter."
+    },
+    "sources/jetbrains/expUI_darculaContrastScheme.xml": {
+      "url": "https://github.com/JetBrains/intellij-community/blob/8062c061ff33e22041d9f1844db5b8b8a6b5e4d7/platform/platform-resources/src/themes/expUI/expUI_darculaContrastScheme.xml",
+      "sha256": "e144038b294f5a057b6f3344332d80e7fbc9324f26322559e3a47ef7f791743b",
+      "license": "Apache-2.0"
+    },
+    "sources/gerry-islandsDarcula.theme.json": {
+      "url": "https://github.com/gerry-themes/islands-darcula/blob/f15cd3c5a948a14e71ebcf6587dee9803f641cd3/islandsDarcula.theme.json",
+      "sha256": "986e57c3442f16b171df82d2ac75c98488dab32fd3ed2e5e805d99162a3ccdb1",
+      "license": "Apache-2.0",
+      "note": "Third-party reference only; no authoritative priority over JetBrains data."
     }
+  },
+  "php_reference": {
+    "vendor": "JetBrains",
+    "plugin_id": "com.jetbrains.php",
+    "version": "252.28539.167",
+    "url": "https://plugins.jetbrains.com/files/6610/1227578/php-impl-252.28539.167.zip",
+    "archive_sha256": "fb22326110079c5c22b72d69e1d52097d9a07448ffd5b29e7ee1234a1e4e71f0",
+    "resource": "php-impl/lib/php.jar!/colorScheme/PhpDarcula.xml",
+    "resource_sha256": "4d2e3aa1a487a09ce04285ed71399ddb3312efb7e614ea0d63a6e8605571257b",
+    "observed_foregrounds": {
+      "PHP_VAR": "#9876aa",
+      "PHP_PARAMETER": "#9876aa"
+    },
+    "note": "Read-only official PHP plugin reference; archive and proprietary resources are not bundled or relicensed here.",
+    "highlighting_resource": "php-impl/lib/php-frontback.jar!/com/jetbrains/php/lang/highlighter/PhpHighlightingData.class",
+    "highlighting_resource_sha256": "51fe87b0ca747e6b9bde5cc8126a9a1472fbd6bbe9841ed9cf3e08ef7cf21300",
+    "function_call_fallbacks": [
+      "PHP_FUNCTION_CALL",
+      "PHP_INSTANCE_METHOD",
+      "DEFAULT_INSTANCE_METHOD",
+      "DEFAULT_FUNCTION_DECLARATION"
+    ],
+    "platform_fallback_url": "https://github.com/JetBrains/intellij-community/blob/8062c061ff33e22041d9f1844db5b8b8a6b5e4d7/platform/core-api/src/com/intellij/openapi/editor/DefaultLanguageHighlighterColors.java"
+  },
+  "contrast": {
+    "checked_on": "2026-11-25",
+    "editor_scheme": "Darcula Contrast → Darcula",
+    "note": "Optional second theme; the original Islands Darcula output is preserved."
   }
 }

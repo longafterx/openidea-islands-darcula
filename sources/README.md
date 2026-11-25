@@ -10,3 +10,9 @@
 - `token-provenance.json`：本项目生成的逐 Token 来源、近似状态及宿主继承记录。
 
 许可和归属见根目录 LICENSE / NOTICE / THIRD_PARTY_LICENSES.md。不要将个人 `.icls`、截图中的私有工程、账户信息或本机用户配置提交到这里。
+
+## Darcula Contrast
+
+The optional second theme also uses the unmodified `jetbrains/expUI_darculaContrastScheme.xml` overlay. `UPSTREAM.json` records its public source and hash, plus read-only observations from the official PHP plugin. Its proprietary resources are not bundled.
+
+The original `token-provenance.json` remains the ledger for Islands Darcula. The contrast variant has its own generated `darcula-contrast-token-provenance.json` and [source guide](../docs/DARCULA-CONTRAST.md).

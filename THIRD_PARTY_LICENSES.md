@@ -22,3 +22,9 @@ https://www.jetbrains.com/idea/
 **显著修改声明：** `themes/islands-darcula.*.json` 为本项目生成的修改版移植，已在文件头标注。将 JetBrains UI 键和 editor attributes 映射为 OpenIDEA CSS Token，增加宿主角色近似和派生表达式；未声称其为 JetBrains 官方导出文件。第三方 Gerry JSON 仅用于对照和转换初稿，最终颜色优先遵循已核验的 JetBrains 资源；不同边框覆盖并未照搬。
 
 没有复制或分发 JetBrains 商标图形、字体、图标、JAR 或专有可执行代码。产品名称仅用于说明兼容性及原资源来源。第三方项目中未发现独立 NOTICE；未编造其版权年份或授权范围。
+
+## Darcula Contrast variant
+
+The optional `themes/darcula-contrast.*.json` files are generated, modified ports of the same Apache-2.0 JetBrains resources plus the original `expUI_darculaContrastScheme.xml` overlay. The existing `themes/islands-darcula.*.json` files retain their original contents.
+
+The official proprietary JetBrains PHP plugin, version `252.28539.167`, was inspected read-only to verify PHP variable colors and function-call fallback attributes. Only factual observations and hashes are recorded in `sources/UPSTREAM.json`; the archive, XML, and executable code are not bundled or relicensed here. See [Darcula Contrast sources](docs/DARCULA-CONTRAST.md) for details.

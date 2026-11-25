@@ -1,35 +1,57 @@
 # Islands Darcula for OpenIDEA
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 <img src="icon.svg" width="80" height="80" alt="Islands Darcula logo">
 
-将 IntelliJ IDEA 内置 **Islands Darcula** 的低对比度深色界面与 Darcula 编辑器配色带到 OpenIDEA。适用于 **OpenIDEA 0.1.40**（Plugin API 1.2+）。
+JetBrains **Islands Darcula** for OpenIDEA, with an optional **Darcula Contrast** variant. Compatible with OpenIDEA 0.1.40+ (Plugin API 1.2+).
 
-## 主题特色
+## Themes
 
-- 柔和的深灰界面，搭配 Darcula 橙色关键字、绿色字符串和紫色字段。
-- 配套编辑器、弹窗、搜索、Diff、VCS 和终端 ANSI 配色。
-- 保留 OpenIDEA 的 Islands 布局、间距与圆角；纯配置，无需 Rust/WASM 或额外权限。
+| Theme | Editor background | Syntax colors |
+| --- | --- | --- |
+| **Islands Darcula** | `#2B2B2B` | The existing Darcula scheme, unchanged |
+| **Darcula Contrast** | `#1E1F22` | JetBrains Darcula Contrast, including purple PHP variables and fields (`#9876AA`) and gold PHP function and method calls (`#FFC66D`) |
 
-## 效果截图
+Both themes share the Islands Darcula interface, including popups, search, diff, VCS, and terminal colors. OpenIDEA supplies layout, spacing, and rounded corners. The plugin contains configuration only and needs no executable module or permissions.
 
-macOS / OpenIDEA 0.1.43 实机截图，示例项目为 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)（[MIT](licenses/CLIProxyAPI-MIT.txt)）。
+Darcula Contrast is generated from JetBrains' original `Darcula Contrast → Darcula` resources. It adds the darker editor background and updated current line, gutter, indent guides, warnings, and matched braces. The existing Islands Darcula theme keeps its original ID, files, and colors.
 
-**主题效果图**
+## Screenshots
 
-![Islands Darcula 的 Go 语法配色与项目树，示例为 CLIProxyAPI](docs/images/cliproxyapi-go.png)
+These screenshots show **Islands Darcula** on macOS/OpenIDEA 0.1.43, using [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ([MIT](licenses/CLIProxyAPI-MIT.txt)). They do not preview Darcula Contrast.
 
-![Islands Darcula 的搜索弹窗、匹配高亮与选中状态](docs/images/cliproxyapi-search.png)
+![Islands Darcula Go syntax colors and project tree](docs/images/cliproxyapi-go.png)
 
-## 安装
+![Islands Darcula search popup, matches, and selection](docs/images/cliproxyapi-search.png)
 
-1. 打开 OpenIDEA 的 **Settings → Plugins → Available**。
-2. 搜索 **Islands Darcula** 并安装；若未找到，点击 **⚙ → Rescan Plugins** 刷新列表。
-3. 在 **Settings → Appearance → Theme** 选择 **Islands Darcula**，编辑器配色使用 **Theme default**。
+## Installation
 
-也可从 [Releases](https://github.com/longafterx/openidea-islands-darcula/releases/latest) 下载 `.oiplugin`，通过 **Settings → Plugins → ⚙ → Install Plugin from Package File…** 手动安装。
+1. Open **Settings → Plugins → Available** and search for **Islands Darcula**. If needed, use **⚙ → Rescan Plugins** to refresh the list.
+2. Install the plugin.
+3. In **Settings → Appearance → Theme**, choose **Islands Darcula** or **Darcula Contrast** and set the editor scheme to **Theme default**.
 
-## 必要说明
+Darcula Contrast becomes available when a release containing this variant is installed. Older releases provide Islands Darcula only.
 
-- 部分语法分类与控件颜色为近似移植，不承诺像素级一致。已在 macOS 验证，Windows/Linux 尚未实测。
-- **禁用或卸载前，先切回内置 Islands Dark**，以规避 OpenIDEA 0.1.40 禁用当前主题时可能出现的“主题不可用”提示。
-- Apache-2.0；原配色来自 JetBrains，另参考 Gerry 的主题。详见[颜色来源](docs/COLOR-SOURCES.md)、[第三方许可](THIRD_PARTY_LICENSES.md)和 [NOTICE](NOTICE)。本项目为社区移植。
+For a local checkout, use **Settings → Plugins → ⚙ → Install Plugin from Package File…** and select `plugin.toml`, or choose **Install Plugin from Disk…** and select the project folder. Published packages are available from the [original project's releases](https://github.com/longafterx/openidea-islands-darcula/releases/latest).
+
+Before disabling or uninstalling the active theme, switch to the built-in **Islands Dark** theme to avoid the unavailable-theme message in OpenIDEA 0.1.40.
+
+## Development
+
+Both themes and their separate provenance records rebuild offline without dependencies:
+
+```sh
+python3 scripts/generate.py
+python3 scripts/validate.py
+```
+
+Edit the generator, then rebuild. Validation checks both manifest entries, pinned hashes, reproducibility, supported tokens, aliases, source colors, and contrast thresholds.
+
+## Sources and compatibility
+
+See the original [color sources](docs/COLOR-SOURCES.md), the [Darcula Contrast source guide](docs/DARCULA-CONTRAST.md), and the separate token ledgers for [Islands Darcula](docs/TOKEN-MAPPING.md) and [Darcula Contrast](docs/DARCULA-CONTRAST-TOKEN-MAPPING.md).
+
+Source RGB values are preserved where the editors expose equivalent roles. OpenIDEA has fewer syntax categories and font effects than PhpStorm; approximations and inherited values are documented. A side-by-side visual comparison with PhpStorm has not been performed for Darcula Contrast.
+
+This community port is licensed under Apache-2.0. Original colors are from JetBrains, with a historical reference to Gerry's theme. See [third-party licenses](THIRD_PARTY_LICENSES.md) and [NOTICE](NOTICE).

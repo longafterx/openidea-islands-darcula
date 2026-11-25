@@ -29,6 +29,13 @@ The original reference JSON in sources is unchanged. Its two principal
 background colors agree with the verified JetBrains resources; final ports
 prefer the JetBrains resources wherever they differ.
 
+Optional Darcula Contrast variant:
+The original JetBrains expUI_darculaContrastScheme.xml overlay is applied to
+Darcula without changing the existing Islands Darcula output. Its dedicated
+PHP variable and function-call roles follow the inspected official PHP plugin.
+The plugin archive and proprietary resources are not distributed here.
+See docs/DARCULA-CONTRAST.md and sources/UPSTREAM.json for sources and hashes.
+
 All original contributions and these ports are licensed under Apache-2.0.
 See LICENSE, THIRD_PARTY_LICENSES.md and docs/COLOR-SOURCES.md.
 No JetBrains icons, fonts, executable code or trademarks are bundled as assets.

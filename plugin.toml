@@ -1,8 +1,8 @@
 # Data-only Theme Plugin API; no executable module or permissions.
 id = "longafter.islands-darcula"
 name = "Islands Darcula"
-version = "0.1.0"
-description = "The same IntelliJ IDEA Islands Darcula theme made for openidea."
+version = "0.3.0"
+description = "JetBrains Islands Darcula for OpenIDEA, with optional Darcula Contrast editor colors."
 authors = ["longafter", "JetBrains (original colors)", "Gerry (reference theme)"]
 homepage = "https://github.com/longafterx/openidea-islands-darcula"
 license = "Apache-2.0"
@@ -13,3 +13,7 @@ icon = "icon.svg"
 [[contributes.themes]]
 path = "themes/islands-darcula.theme.json"
 editor-scheme = "themes/islands-darcula.scheme.json"
+
+[[contributes.themes]]
+path = "themes/darcula-contrast.theme.json"
+editor-scheme = "themes/darcula-contrast.scheme.json"

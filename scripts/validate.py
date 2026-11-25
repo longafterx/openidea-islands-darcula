@@ -40,15 +40,23 @@ def main():
     require(manifest["engines"]["openidea"] == "^1.2", "Package icons require plugin API 1.2+")
     require(not any(k in manifest for k in ["wasm", "capabilities", "activation", "openidea-api"]), "Plugin must remain data-only")
     require(set(manifest["contributes"]) == {"themes"}, "Unexpected executable contribution")
-    require(len(manifest["contributes"]["themes"]) == 1, "Expected one theme")
-    decl = manifest["contributes"]["themes"][0]
+    require(manifest["name"] == "Islands Darcula", "Preserve the original plugin name")
+    require(manifest["homepage"] == "https://github.com/longafterx/openidea-islands-darcula", "Preserve the upstream homepage")
+    require(len(manifest["contributes"]["themes"]) == 2, "Expected the original theme and the contrast variant")
+    for theme_id, decl in zip(["islands-darcula", "darcula-contrast"], manifest["contributes"]["themes"]):
+        validate_theme(decl, theme_id)
+
+
+def validate_theme(decl, theme_id):
+    contrast = theme_id == "darcula-contrast"
+    name = "Darcula Contrast" if contrast else "Islands Darcula"
     for field in ["path", "editor-scheme"]:
         path = Path(decl[field])
         require(not path.is_absolute() and (ROOT / path).resolve().is_relative_to(ROOT), f"Unsafe path: {path}")
     theme = load_jsonc(ROOT / decl["path"])
     scheme = load_jsonc(ROOT / decl["editor-scheme"])
-    require(theme["id"] == "islands-darcula" and theme["kind"] == "dark", "Invalid theme identity/kind")
-    require(theme["name"] == scheme["name"] == "Islands Darcula", "Inconsistent display names")
+    require(theme["id"] == theme_id and theme["kind"] == "dark", "Invalid theme identity/kind")
+    require(theme["name"] == scheme["name"] == name, "Inconsistent display names")
     tokens = {**theme["tokens"], **scheme["tokens"]}
     require(not (theme["tokens"].keys() & scheme["tokens"].keys()), "Accidental UI/editor override collision")
     require(len(tokens) <= 512, "Host token limit exceeded")
@@ -66,7 +74,20 @@ def main():
     }
     require(required <= tokens.keys(), f"Missing P0 tokens: {required - tokens.keys()}")
     require(tokens.keys() <= allowed, f"Unknown host tokens: {tokens.keys() - allowed}")
-    provenance = json.loads((ROOT / "sources/token-provenance.json").read_text())
+    # Guard the original palette against accidental substitutions or host defaults.
+    for token, expected in {
+        "--bg-editor": "#1e1f22" if contrast else "#2b2b2b", "--fg-editor": "#a9b7c6",
+        "--bg-current-line": "#2b2d30" if contrast else "#323232",
+        "--syn-php-variable": "#9876aa" if contrast else "#a9b7c6",
+        "--syn-php-function-call": "#ffc66d" if contrast else "#a9b7c6", "--syn-function": "#ffc66d",
+        "--syn-keyword": "#cc7832", "--syn-string": "#6a8759",
+        "--syn-number": "#6897bb", "--syn-comment": "#808080",
+        "--syn-property": "#9876aa", "--syn-constant": "#9876aa",
+    }.items():
+        require(tokens.get(token) == expected, f"Original palette mismatch: {token}")
+    print(f"PASS: {name} palette")
+    provenance_file = "darcula-contrast-token-provenance.json" if contrast else "token-provenance.json"
+    provenance = json.loads((ROOT / "sources" / provenance_file).read_text())
     require(tokens.keys() <= provenance.keys(), "Tokens missing provenance")
     for key, value in tokens.items():
         require(not re.search(r"[;{}<>\\\n]|url\(|image\(", value, re.I), f"Unsupported CSS value: {key}")
